@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.sign-in {
+    width: 100%;
+}
+
+/* Título del formulario */
+form.sign-in h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Texto debajo del título */
+form.sign-in span {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Contenedor de los inputs */
+.container-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos de los íconos */
+.container-input ion-icon {
+    font-size: 20px;
+    color: #888;
+    margin-right: 10px;
+}
+
+/* Estilos de los inputs */
+.container-input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Enlace de olvidaste tu contraseña */
+form.sign-in a {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+form.sign-in a:hover {
+    text-decoration: underline;
+}
+
+/* Botón de iniciar sesión */
+button.button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.button:hover {
+    background: #0056b3;
+}
